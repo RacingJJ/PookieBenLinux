@@ -1,29 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background: #111;
+    background: #101010;
     color: white;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 header {
-    padding: 50px;
     background: #222;
+    padding: 60px;
 }
 
 h1 {
     font-size: 60px;
+    margin: 0;
 }
 
 section {
-    padding: 30px;
+    padding: 40px;
+}
+
+button {
+    background: #00aaff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0088cc;
 }
 
 ul {
     list-style-position: inside;
+    font-size: 18px;
 }
 
 footer {
-    padding: 20px;
     background: #222;
+    padding: 20px;
 }
